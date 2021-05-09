@@ -14,7 +14,8 @@
   --dark-gray: #999;
 }
 
-html ,body {
+html,
+body {
   background: var(--dark);
   color: var(--pure);
   font-family: "Lato", sans-serif;
@@ -81,7 +82,7 @@ html ,body {
   position: relative;
   list-style-type: none;
   display: flex;
-  align-items: center;  
+  align-items: center;
   justify-content: space-around;
   margin-left: 40px;
   padding: 2px 0;
@@ -110,4 +111,10 @@ html ,body {
   border-radius: 50px;
   font-size: 13px;
   /* line-height: 50px; */
+}
+
+.search-box .cancel-button {
+  position: absolute;
+  top: 50%;
+  right: 5px;
 }
